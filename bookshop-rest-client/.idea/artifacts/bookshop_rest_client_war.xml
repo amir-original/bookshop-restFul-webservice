@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bookshop-rest-client:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bookshop-rest-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bookshop-rest-client-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bookshop-rest-client:war exploded" />
+    </root>
+  </artifact>
+</component>
